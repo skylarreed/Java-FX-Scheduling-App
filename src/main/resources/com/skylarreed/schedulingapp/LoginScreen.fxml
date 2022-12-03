@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="306.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.skylarreed.schedulingapp.controllers.LoginScreenController">
+    <children>
+        <Label fx:id="loginField" alignment="TOP_CENTER" layoutY="30.0" prefHeight="306.0" prefWidth="336.0" text="Login" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+        <Label layoutX="3.0" layoutY="3.0" prefHeight="300.0" prefWidth="329.0" style="-fx-border-color: black; -fx-padding: 10; -fx-border-radius: 5;" />
+        <TextField fx:id="lsUsername" layoutX="88.0" layoutY="105.0" promptText="Username" />
+        <TextField fx:id="lsPassword" layoutX="88.0" layoutY="153.0" prefHeight="26.0" prefWidth="160.0" promptText="Password" />
+        <Button fx:id="loginButton" layoutX="220.0" layoutY="188.0" mnemonicParsing="false" onAction="#loginButton" prefHeight="26.0" prefWidth="60.0" text="Login" textAlignment="CENTER" />
+        <Button fx:id="exitButton" layoutX="224.0" layoutY="223.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="26.0" prefWidth="54.0" text="Exit" />
+        <Label fx:id="locationText" layoutX="132.0" layoutY="240.0" prefHeight="17.0" prefWidth="83.0" text="Location" />
+        <Label fx:id="usernameField" layoutX="91.0" layoutY="88.0" prefHeight="17.0" prefWidth="160.0" text="Username">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+        <Label fx:id="passwordField" layoutX="91.0" layoutY="138.0" prefHeight="15.0" prefWidth="153.0" text="Password">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+        <TextField fx:id="lsLocationField" editable="false" layoutX="80.0" layoutY="260.0" prefHeight="26.0" prefWidth="176.0" style="-fx-background-color: white;" />
+    </children>
+</AnchorPane>
